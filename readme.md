@@ -9,7 +9,7 @@
       <li><a href="#built-with">Built With</a></li>
       <li><a href="#links-and-contacts">Links and Contacts</a></li>
         <ul>
-          <li><a href="#try-the-website">Try the Website</a></li>
+          <li><a href="#try-the-application">Try the Application</a></li>
           <li><a href="#my-contacts">My Contacts</a></li>
         </ul>
      </ol>
@@ -47,7 +47,7 @@ By using environment variables, these URLs can be adjusted easily without modify
 * **Webpack** used for bundling and module management, simplifying code organization and making page loading more efficient. Webpack, in combination with dotenv-webpack, allows to use environment variables from the .env file, thus keeping sensitive data hidden from the code and enhancing security and maintainability.
 
 ## Links and Contacts
-### Try My Bookshelf
+### Try the Application
 **Project Link**: https://mybookshelf-project.netlify.app/
 
 ### My Contacts

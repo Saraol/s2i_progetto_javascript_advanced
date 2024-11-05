@@ -33,9 +33,9 @@ In order to make content exploration easier and more intuitive, I also decided t
 In this way, the content of the book description will be removed from the results container, allowing the search results to be displayed again.
 
 To keep **API URL management** flexible and secure, these URLS are managed through **environment variables**. In the code, in fact, these variables are accessed using **process.env**, as follows:
-* **API_URL** for the Open Library subject API, which retrieves the list of books by genre: `${process.env.API_URL}/${input}.json?limit=${maxResults}`
-* **COVER_BASE_URL** for retrieving book covers: `${process.env.COVER_BASE_URL}/${book.cover_id}-M.jpg`
-* **BASE_BOOK_URL** for fetching book descriptions by specific keys: `${process.env.BASE_BOOK_URL}${bookKey}.json`
+* **API_URL** for the Open Library subject API, which retrieves the list of books by genre: `${process.env.API_URL}/${input}.json?limit=${maxResults}`;
+* **COVER_BASE_URL** for retrieving book covers: `${process.env.COVER_BASE_URL}/${book.cover_id}-M.jpg`;
+* **BASE_BOOK_URL** for fetching book descriptions by specific keys: `${process.env.BASE_BOOK_URL}${bookKey}.json`.
 
 By using environment variables, these URLs can be adjusted easily without modifying the main code, allowing for better **adaptability** and **security** in different deployment environments.
 

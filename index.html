@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>My Bookshelf</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    </head>     
+    <body>
+        <div id="wrapper"> <!--Wrapper openin tag-->
+
+        <!--Header Start-->
+        <header class="page-section site-header">
+            <div class="page-heading">
+                <h1>My Bookshelf</h1>
+            </div>
+            <a href="index.html">
+                <div class="header-pic">
+                <img src="assets/images/bookshelf.png" rel="noopener" alt="A red-haired girl and a red cat chilling on a Bookshelf">
+            </div>
+        </a>
+        </header>
+        <!--Header End -->
+
+        <!-- Main start-->
+        <main class="main">
+            <!-- Search section start-->
+            <form id="searchForm"class="search-section"> 
+                <div class="search-input-container">
+                    <input id="input" class="search-input" type="search" placeholder="What genre do you want to read?">
+                    <img src="assets/images/search-lens.svg" alt="magnifying lens icon" width="40px">
+                </div>
+                <div class="search-button-container">
+                    <button type="submit" id="search-button" class="btn">Search</button>
+                </div>
+            </form>
+            <!-- Search section end -->
+            
+            <div id="loading" class="loading">Loading...</div> <!-- Loading message -->
+            
+            <div id="results" class="results-container"></div> <!--results container-->
+        </main>
+        <!--Main end-->
+
+        <!-- Footer start-->
+        <footer class="site-footer">
+            <div class="footer-items">
+                <div id=footer-links>
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/sarainwonderweb/" rel="noopener" target="_blank"><img src="assets/images/ig-brown.svg" width="40px" height="40px" alt="Logo Instagram"></a></li>
+                        <li><a href="https://github.com/Saraol/" rel="noopener" target="_blank"><img src="assets/images/github-brown.svg" width="40px" height="40px" alt="Logo GitHub"></a></li>
+                        <li><a href="https://www.linkedin.com/in/saraol84/" rel="noopener" target="_blank"><img src="assets/images/linkedin-brown.svg" width="40px" height="40px" alt="Logo LinkedIn"></a></li>
+                        <li><a href="https://saraol.github.io/" rel="noopener" target="_blank"><img src="assets/images/website-brown.svg" width="40px" height="40px" alt="Logo website"></a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-paragraph">
+                    <p>&copy; 2024 by Sara Oliva</p>
+                </div>
+            </div>
+        </footer>
+        <!--Footer end -->    
+        
+        </div> <!--Wrapper Closing Tag-->
+        
+        <script src="dist/bundle.js"></script>
+
+    </body>
+</html>

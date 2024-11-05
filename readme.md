@@ -16,7 +16,9 @@
 </details>
 
 ## Overview
-
+![homepage-and-loading](https://github.com/user-attachments/assets/14dcb434-26ae-4082-8e62-48b6389fa898)
+![book-list](https://github.com/user-attachments/assets/d6e89f29-50c3-42f0-b13a-70575f1906a5)
+![book-description](https://github.com/user-attachments/assets/1822da6f-939f-407a-a666-8a15bc5b85c8)
 
 ## About the Project
 **My Bookshelf** is my third project carried out within the **Full Stack Development** course, which I am taking on [start2impact](https://www.start2impact.it/).
